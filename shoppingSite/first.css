@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* navbar*/
+
+
+.navbar-dark{
+
+background-color:transparent;
+border-color: transparent;
+height: 50px;
+width: 100%;
+margin: 0px;
+
+}
+.navbar-dark .navbar-brand h1{
+    font-family: fantasy;
+    font-size: 40px;
+    color: rgb(243, 151, 30);
+    padding: 40px 15px;
+    font-weight: 900;
+    font-weight: bold;
+}
+.navbar-dark .navbar-brand h1 span{
+    font-family: serif;
+    font-size: 38px;
+    color: rgb(255, 254, 254);
+}
+
+
+#nav{
+font-size: 22px;
+
+margin-left: 600px;
+}
+.navbar-dark .person{
+    margin-left: 80px;
+}
+#nav1{
+font-size: 19px;
+
+}
+#nav:hover{
+color:#F8F8FF;
+
+}
+
+#nav1:visited{
+    color: #F8F8FF;
+    }
+#nav:visited{
+color: #F8F8FF;
+}
+.navbar-dark .person :hover{
+    border: solid 1px #45668e;
+	background:#3c4d61;
+	color: #FFFFFF;
+}
+
+header .carousel-inner .carousel-item{
+    height: 100vh;
+    
+}
+
+.carousel-item{
+    -webkit-background-size:cover ;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+    
+}
+.carousel-caption{
+  
+    padding-bottom: 110px;
+    font-family:fantasy ;
+    
+   
+}
+.carousel-caption .back{
+    background: rgba(121, 68, 42, 0.425);
+}
+.carousel-caption h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+    color:#f88425;
+}
+.carousel-caption a{
+    background:#CD853F;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+
+
+.countd{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px dotted;
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+   
+}
+.countd span{
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+    text-align: center;
+}
+/* The popup form - hidden by default */
+.form-popup  {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f14f;
+    z-index: 9;
+    margin-right: 460px;
+    margin-bottom: 90px;
+    background-color: rgba(169, 169, 169, 0.356);
+  }
+
+  #myForm2{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #6360604f;
+    z-index: 9;
+    margin-right: 460px;
+    margin-bottom: 0px;
+   
+    background-color: rgba(169, 169, 169, 0.356);
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+  }
+
+  .form2-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.719);
+  }
+  .form-container h1{
+      text-align: center;
+    
+  }
+  .form2-container h1{
+    text-align: center;
+  
+}
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+  .form2-container input[type=text], .form2-container input[type=password] {
+    width: 70;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form2-container input[type=text]:focus, .form2-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: rgb(68, 60, 185);
+    color: white;
+   
+    border: none;
+    cursor: pointer;
+ 
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.8;
+  }
+
+ .btn-sign-in{
+    background-color: rgb(6, 19, 54);
+    color: white;
+   
+    border: none;
+    cursor: pointer;
+ 
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.8;
+  }
+  .form2-container .btn-sign-in{
+    background-color: rgb(6, 19, 54);
+    color: white;
+   
+    border: none;
+    cursor: pointer;
+ 
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.8;
+
+  }
+  .form2-container .btn {
+    background-color: rgb(68, 60, 185);
+    color: white;
+   
+    border: none;
+    cursor: pointer;
+ 
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.8;
+  }
+  
+  .forget-bassword
+  {
+      font-size:12px ;
+margin-left: 120px;
+margin-top: 20px;
+  }
+  .Remember{
+    font-size:12px ; 
+    margin-left: 20px;
+  }
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .form-container .btn-sign-in:hover{
+    opacity: 1;
+  }
+
+  #facebook {
+      margin-left: 40px;
+  }
+  #twitter{
+    margin-left: 30px;
+  }
+  #Gmail{
+    margin-left: 30px;
+  }
+
+#facebook :hover{
+   text-decoration: none;
+    border: solid 1px #45668e;
+	background:#45668e;
+	color: #FFFFFF;
+}
+
+ #twitter :hover{
+    border: solid 1px #55acee;
+	background:#55acee;
+    color: #FFFFFF;
+ }
+#Gmail :hover{
+   border-left: solid 1px #9b1611c9;
+   border-right: solid 1px #9b1611c9;
+   background:#dddedfe1;
+   color: #FFFFFF;}
+ 
+  

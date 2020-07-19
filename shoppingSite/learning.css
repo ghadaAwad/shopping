@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body {
+  background: rgb(255, 255, 255);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+ background:none ;
+  width: 100%;
+  filter: blur(-1px);
+  -webkit-filter: blur(-1px);
+ 
+  padding-bottom: 120px;
+ margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+.detalis{
+    box-sizing: border-box;
+    background-color: rgb(247, 236, 236);
+    height: 70px;
+}
+.detalis h3{
+   padding-top: 16px;
+    font-size: 16px;
+    margin-top: 220px;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.detalis h3 span{
+    color: rgb(175, 46, 46);
+    font-size: 14px;
+}
+header{
+ margin: 0px;
+ padding: 0px;
+ 
+width: 100%;
+height: auto;
+
+position: relative;
+  
+}
+.h-img {
+    background-image: url("img/black-friday-header.jpg") ; 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    top:0px;
+    left:0px;
+    position: absolute;
+    filter: blur(6px);
+    z-index:-100;
+   
+  
+   
+  
+   
+
+
+}
+/* this is navbar Account*/
+.navbar-nav #person :hover{
+    border: solid 1px #45668e;
+	background:#3c4d61;
+	color: #FFFFFF;
+}
+.person :hover{
+    border: solid 1px #45668e;
+	background:#3c4d61;
+	color: #FFFFFF;
+}
+
+.navbar-nav #facebook :hover{
+    border: solid 1px #45668e;
+	background:#45668e;
+	color: #FFFFFF;
+}
+
+.navbar-nav #twitter :hover{
+    border: solid 1px #55acee;
+	background:#55acee;
+	color: #FFFFFF;
+}
+.navbar-nav #whatsapp :hover{
+    border: solid 1px #b9fad2;
+	background:#06962a;
+	color: #FFFFFF;
+}
+.navbar-nav #instagram :hover{
+    border: solid 1px #f71515;
+	background:#f54d19;
+	color: #FFFFFF;
+}
+
+ #pro{
+    margin-top: 90px;
+}
+/* navbar*/
+.l h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(31, 30, 30);
+    margin-top: 100px;
+    text-align: center;
+    opacity: 1;
+  
+}
+.l h1 span{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(48, 46, 46);
+    opacity: 1;
+}
+
+
+.navbar-dark{
+
+background-color:#000 ;
+border-bottom: solid 2px rgb(247, 151, 95);
+height: 42px;
+width: 100%;
+margin: 0px;
+}
+.navbar-dark .navbar-brand h1{
+    font-family: fantasy;
+    font-size: 40px;
+    color: rgb(175, 46, 46);
+}
+.navbar-dark .navbar-brand h1 span{
+    font-family: serif;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .person{
+    margin-left: 300px;
+}
+
+#nav{
+font-size: 22px;
+color:#808080;
+}
+#nav1{
+font-size: 19px;
+}
+#nav:hover{
+color:#F8F8FF;
+
+}
+
+#nav1:visited {
+color: #F8F8FF;
+}
+#nav:visited{
+color: #F8F8FF;
+}
+/*Site Definitions*/
+.shopping {
+margin-top: 140px;
+text-align: center;
+color: #FFFFFF;
+font-weight: bold;
+font-style: italic;
+padding-bottom: 12px;
+margin-left: -23px;
+
+font-family: serif;
+
+}
+.shopping h1 span{
+ color:   #800000;
+    font-size: 65px;
+    font-family: fantasy;
+}
+
+
+.shopping  .p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.5;
+    font-family: serif;
+    }
+
+    .searchbar{
+        margin-bottom: auto;
+        margin-top: auto;
+        height: 60px;
+        background-color: #7f8185;
+        border-radius: 30px;
+        padding: 10px;
+        }
+    
+        .search_input{
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 0;
+        caret-color:transparent;
+        line-height: 40px;
+        transition: width 0.4s linear;
+        }
+    
+        .searchbar:hover > .search_input{
+        padding: 0 10px;
+        width: 450px;
+        caret-color:red;
+        transition: width 0.4s linear;
+        }
+    
+        .searchbar:hover > .search_icon{
+        background: white;
+        color: #e74c3c;
+        margin-top: -40px;
+        }
+    
+        .search_icon{
+           
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
+        text-decoration:none;
+        }
+        /*navbar left*/
+        .wrapper {
+            display: flex;
+            width: 100%;
+            align-items: stretch;
+           
+            
+        }
+        .wrapper {
+            display: flex;
+            align-items: stretch;
+        }
+        
+        #sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            
+        }
+        
+        #sidebar.active {
+            margin-left: -250px;
+            margin-top: 0px;
+
+          
+        }
+        #sidebar {
+            min-width: 250px;
+            max-width: 250px;
+            min-height: 100vh;
+            margin-top: 55px;
+            
+        }
+        a[data-toggle="collapse"] {
+            position: relative;
+            top: 0em;
+        }
+        
+        .dropdown-toggle::after {
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+           
+        }
+        @media (max-width: 768px) {
+            #sidebar {
+                margin-left: -250px;
+                transition: all .5s ease;
+            }
+            #sidebar.active {
+                margin-left: 0;
+            }
+        } 
+        @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+    
+}
+
+#sidebarCollapse{
+    background-color: rgb(223, 92, 53);
+    border: none;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+   
+    color: #fff;
+    transition: all 0.3s;
+  background:none;
+  font-family: serif;
+ 
+}
+
+
+ 
+#sidebar h3 span {
+    font-family: fantasy;
+    font-size: 40px;
+    color: rgb(175, 46, 46);
+  background:none;
+ 
+ 
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #2f2f30;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #d2d4d4;
+}
+
+
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+#sidebar ul li a:hover {
+    color:  #fff;
+    background: rgb(12, 12, 12);
+    text-decoration: none;
+}
+
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #eea867;
+    text-decoration: none;
+  
+}    
+
+#sidebar ul li .clothes{
+    text-align: center;
+}
+/* pic clothes */
+.bgimg1{ 
+border:none;
+padding: 10px;
+width: 250px;
+
+}
+
+.bgimg2 {
+border:none;
+padding: 10px;
+width: 254px;
+margin-top: 33.5px;
+margin-left: 10px;
+
+
+}
+.bgimg h1.text{
+   text-align: center;
+    font-family: serif;
+    font-size: 22px;
+  
+}
+.bgimg1{opacity:1 ;}
+.bgimg:hover.bgimg1{opacity:1 ;}
+.bgimg2 {opacity:0;position:absolute;top: 2;left: 0;}
+
+.bgimg:hover .bgimg2 {opacity:1 ;top: 0;left: 0;}
+
+
+
+.detalis1{
+    box-sizing: border-box;
+    background-color: rgb(227, 228, 233);
+    height: 70px;
+    width: 230.2px;
+    margin-left: 10px;
+    filter: blur(0.5px);
+    margin-bottom: 26px;
+}
+.detalis1 h3{
+  margin-top: -7px;
+    font-size: 16px;
+    
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.detalis1 h3 span{
+    color: rgb(233, 23, 23);
+    font-size: 14px;
+}
+.dot {
+height: 100px;
+width: 100px;
+background-color: rgb(73, 72, 72);
+border-radius: 50%;
+display: inline-block;
+margin-left: 60px;
+}
+
+#n3{
+margin-left: 20-px;
+color: dimgray;
+font-family: serif;
+}
+.name2 {
+margin-left: 50px;
+color: rgb(9, 9, 61);
+
+font-size: 28px;
+font-family: inherit;
+}
+.item{ margin-top: 80px;
+background-color: darkblue;
+color: aliceblue;
+font-size: 1.2em;
+text-transform: capitalize;
+}
+.serch{
+margin-left: 340px;
+}
+.ul{color: cornsilk;}
+.w3{
+margin-left: 50px;
+}
+.flex-column .nav-item {
+
+margin-left: 0px;
+}
+#nav2{
+color :rgb(6, 1, 56);
+margin-left: 00px;
+}
+#nav1{
+color :rgb(232, 231, 240);
+
+}
+#nav2:hover{
+color:white;
+
+}
+#carouselExampleIndicators1 .carousel-inner{
+height: 400px;
+color: navy;
+}
+.imgShopping{
+width: 320px;
+height:290px ;
+margin-left:200px;
+}
+.navbar-expand-sm{
+size: 12px;
+}
+#carouselExampleIndicators  .carousel-item {
+height: 92vh;
+min-height: 550px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+#carouselExampleIndicators1.heder-text{
+font-size: 50px;
+color: rgb(63, 151, 167);
+margin-top: 10px;
+}
+
+
+  div.background {
+    background: url("img/gray.jpg") repeat;
+    border: 2px solid black;
+  }
+  

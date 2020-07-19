@@ -1,0 +1,193 @@
+
+*{
+
+
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  margin:0;  
+  padding:0px;;
+
+
+}
+.navbar-dark{
+  background-color: rgb(53, 47, 47);
+  height: 48px;
+  width: 100%;
+  margin-left: 100px;
+}
+#nav{
+  font-size: 22px;
+  color:#808080;
+}
+#nav1{
+  font-size: 19px;
+}
+#nav:hover{
+  color:#F8F8FF;
+ 
+}
+
+#nav1:visited {
+  color: #F8F8FF;
+}
+#nav:visited{
+  color: #F8F8FF;
+}
+.bgimg1{ border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 250px;
+
+  }
+  
+  .bgimg2 { border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 280px;
+
+  }
+  .bgimg1{opacity:1 ;}
+  .bgimg:hover.bgimg1{opacity:1 ;}
+  .bgimg2{opacity:0;position:absolute;top: 2;left: 0;}
+  .bgimg:hover .bgimg2{opacity:1 ;top: 0;left: 0;}
+  .nav-link{color: midnightblue; font-size:1.5em ;}
+ 
+  .lable{border-radius: 40px;
+    width:40px;
+}
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(73, 72, 72);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+ #n3{
+  margin-left: 20-px;
+  color: dimgray;
+  font-family: serif;
+}
+.name2 {
+  margin-left: 50px;
+  color: rgb(9, 9, 61);
+ 
+  font-size: 28px;
+  font-family: inherit;
+}
+.item{ margin-top: 80px;
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+.serch{
+    margin-left: 340px;
+}
+.ul{color: cornsilk;}
+.w3{
+  margin-left: 50px;
+}
+.flex-column .nav-item {
+  
+  margin-left: 0px;
+}
+ #nav2{
+  color :rgb(6, 1, 56);
+  margin-left: 00px;
+}
+#nav2:hover{
+  color:white;
+ 
+}
+#carouselExampleIndicators1 .carousel-inner{
+  height: 400px;
+ color: navy;
+}
+.imgShopping{
+  width: 320px;
+  height:290px ;
+  margin-left:200px;
+}
+.navbar-expand-sm{
+  size: 12px;
+}
+#carouselExampleIndicators  .carousel-item {
+  height: 92vh;
+  min-height: 550px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+  
+}
+#carouselExampleIndicators1.heder-text{
+  font-size: 50px;
+  color: rgb(63, 151, 167);
+  margin-top: 10px;
+}
+
+
+.swiper-container {
+  background:none ;
+   width: 60%;
+   padding-top: 50px;
+   padding-bottom: 120px;
+   margin-left: 400px;
+   margin-top: 0px;
+   margin-bottom: 100px;
+ }
+ .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 320px;
+   height: 320px;
+
+ }
+ .detalis{
+     box-sizing: border-box;
+     background-color: rgb(247, 236, 236);
+     height: 70px;
+ }
+ .detalis h3{
+    padding-top: 16px;
+     font-size: 16px;
+     margin-top: 220px;
+    
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+ }
+ .detalis h3 span{
+     color: rgb(233, 23, 23);
+     font-size: 14px;
+ }
+header{
+  margin: 0px;
+  padding: 0px;
+  background-color: darkseagreen;
+width: 100%;
+height: 500px;
+background-size: cover;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+overflow: hidden;
+}
+
+
+.list-group{
+color: firebrick;
+font-size: 20px;
+padding: 30px;
+}
+
+
+
+
+
+
+
